@@ -1,0 +1,143 @@
+\documentclass[11pt]{article}
+
+% Page layout
+\usepackage[margin=1in]{geometry}
+
+% Font
+\usepackage{kpfonts}
+
+% Basic packages (optional but useful)
+\usepackage{setspace}
+\usepackage{microtype}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+
+\usepackage{natbib}
+\bibliographystyle{econometrica}
+
+% Paragraph formatting
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+
+Hi John,
+
+Thanks again for agreeing to write a letter for me. As you suggested, I am writing about the points you mentioned in your previous email. 
+
+\subsubsection*{Bishmay's Background}
+\begin{itemize}
+    \item \textbf{M.Sc. Economics (graduated in 2025):} Shiv Nadar University, India. 
+    \item \textbf{B.Sc. Economics (Honours) (graduated in 2023):} XIM University, India. 
+\end{itemize}
+I am currently employed in the research wing of the Reserve Bank of India, which is called the Centre for Advanced Financial Research and Learning (\href{https://www.cafral.org.in}{CAFRAL}). 
+
+If you would like to know more about my academic background, such as the macroeconomics and growth courses I took during my master's and the topics I taught as a Teaching Assistant, I would humbly request you to refer to the \nameref{sec:appendix}. 
+
+\subsubsection*{Academic Interests}
+\begin{itemize}
+    \item My academic interests lie primarily in understanding quantitative macroeconomic models, computational economics and development economics. 
+    \item I also enjoy working on and reading papers on growth theory, especially endogenous growth models, and understanding the evolution and advancements in the literature. 
+    \item I have really started enjoying the integration of AI and LLMs into the field of economics, especially understanding deep learning methodologies and using artificial neural networks to answer economic questions. 
+    \item If you remember, I had mentioned in the beginning that I have worked with artificial neural networks, where I tried building a neural network to predict consumption expenditure using nightlight data in Indian villages. The results showed that nightlight is a better indicator of consumption expenditure in rural areas than in urban areas, and that marginal returns to increased nightlight intensity are higher in rural areas compared to urban areas, suggesting a differential relationship between night-time luminosity and economic activity across regions.
+    
+\end{itemize}
+
+\subsubsection*{Current activities}
+Most of my day-to-day work at the RBI is working with large datasets and building efficient project pipelines. But I have also undertaken some economic projects which I am mentioning below:
+\begin{itemize}
+    \item \textbf{Project on Culture and Debt in India:} This is a project by \href{https://www.philadelphiafed.org/our-people/satyajit-chatterjee}{Dr. Satyajit Chatterjee (Chatty)} (Vice President, Federal Reserve Bank of Philadelphia), \href{https://www.nirupamakulkarni.com}{Dr. Nirupama Kulkarni} (Professor, CAFRAL), and \href{https://sites.google.com/view/ashwinideshpande/home}{Dr. Ashwini Deshpande} (Professor and Head, Ashoka University)
+    \begin{itemize}
+        \item This is a project that studies the loan taking behaviour of multiple caste groups in India. Our hypothesis is that since castes are close knitted cultural groups, there might be patterns in their risk sharing behaviour, which would also impact bank loan disbursements across districts in India. 
+        \item Along with that, we look at individuals belonging to multiple age groups within these castes, track their consumption and income over time, and study the changes in variance in consumption expenditure and income over time. 
+        \item We have received similar results as we see in the paper by \cite{deaton1994intertemporal}, i.e. as $t \uparrow$, variance in consumption expenditure and income $\uparrow$, but at different rates (different slopes). So we can also relate this to inequality explanations as well.
+        \item I particularly enjoy investing my time in this project because there's always something new to learn from the PIs, especially Chatty, and I end up discussing a lot on the computational economics side. 
+    \end{itemize}
+    \item \textbf{Paper on Migration of Jatis (castes) in India}: (My co-author: \href{https://sites.google.com/view/ashwinideshpande/home}{Dr. Ashwini Deshpande})
+    \begin{itemize}
+        \item It's a little related to the above topic, because we start with the hypothesis that Jatis (castes) are closely knitted cultural groups. 
+        \item We look at the migration patterns and realize that individuals belonging to a caste that's dominant in a particular district do not take big migration leaps from one district (state) to another (i.e., individuals belonging to a particular Jati like to stay in the same caste-dominated areas).
+        \item We are one of the first people to write about a story like this, since there's a lack of data availability for migrants in India (in the available sample of almost 400,000 individuals, the migrant data is missing). But I had done a lot of data engineering and performed a vectorized mapping from these migrant individuals to their historical modal distributions, developing an algorithm that back-tracked the migrant's information (their demographic characteristics, occupational status, educational status and qualifications, etc.). 
+        \item Because of this algorithm, it allows us to hold really rich data about individuals' castes, migrant status, and track their migration status over a period of 10 years. 
+    \end{itemize}
+    \item \textbf{Some more projects with other supervisors at CAFRAL}:
+    \begin{itemize}
+        \item Understanding the effect of Unified Payments Interface (UPI) (a type of digital / cashless transaction mechanism) on the intersectoral labour migration in India. Some of my supervisors are building a structural transformation model and incorporating the idea of UPI into it. I help them out by building project pipelines, and cleaning relevant datasets. 
+        \item There is also a project on understanding stagnation of female labour force participation in India, and understanding the demand side story for it. 
+    \end{itemize}
+\end{itemize}
+\subsubsection*{Work for Quantecon}
+
+I emailed Quantecon expressing my interest in contributing to the project in August 2024. Later, I had the opportunity to start working with Matt and Smit on the Introductory lecture series of Quantecon, where I worked on refining it and making the introductory lectures WASM compatible. There were alterations required in some of the exercises to reduce dimensionality and demonstrate the same idea with fewer CPU cycles. 
+
+Through the WASM project, I learned how to write better code in Python, got introduced to Jupyter-lab myst, and learned how to work efficiently on Github. I took small steps to help, like going through all the introductory lectures and checking if all codes ran well locally as well as on Google Colab, adding warnings and admonitions to whichever lecture required it, and cleaning up the repository a bit. This experience helped me become familiar with the Quantecon style, and then I took the next step to a completely new set of tasks that was assigned to me. 
+
+I started working on their Intermediate Python lecture series, where I contributed to some of their lectures, such as \href{https://python.quantecon.org/samuelson.html}{Samuelson Multiplier-Accelerator}, where I made some corrections in the lecture, made it more coherent, ensured the coding structure followed PEP8 guidelines, and made sure it followed Quantecon style guidelines as well. I did similar things with the \href{https://python.quantecon.org/mix_model.html}{Incorrect Models} lecture as well. It was a great learning experience, where my Python coding skills were improved, and I learned how to write structured code. 
+
+Another fascinating and involving task was converting the \href{https://python.quantecon.org/mccall_q.html}{McCall Search Model with Q-Learning} into a JAX equivalent version. After becoming familiar with the McCall search framework, being introduced to Q-learning, and converting the entire lecture implementation for the first time, the process was admittedly intense. However, this exercise proved extremely valuable, as it gave me hands-on exposure to a powerful machine learning tool and a deeper understanding of the JAX library, particularly its functional programming paradigm, automatic differentiation, and efficiency in handling large-scale numerical computations.
+
+\subsubsection*{Interactions with John}
+
+I was first introduced to John in May 2025, when he introduced the concepts of AI tools for economics. He gave an insight and introduction to computational economics and the AI revolution, programming tools, basics of deep learning, dynamic programming (algorithms and codes), and stochastic approximation and reinforcement learning. In one of these sessions, Camille and I presented some parts of \href{https://jax.quantecon.org/jax_intro.html}{An Introduction to JAX}, where I specifically explained parts on functional programming, computing gradients using autodifferentiation, and writing vectorized code. 
+
+Later on, John kindly agreed to my request to join his reading group, where different kinds of macroeconomic and theoretical papers were being presented and discussed. I presented two papers, and they are the following:
+\begin{itemize}
+    \item \href{https://github.com/Tv-v-Lab/Tv-v-Reading-Group/blob/main/weekly_pre/nonlinear_hank_nn.pdf}{Estimating Nonlinear Heterogeneous Models with Neural Networks}
+    \item \href{https://github.com/Tv-v-Lab/Tv-v-Reading-Group/blob/main/weekly_pre/rising_inequality.pdf}{Unpacking Rising Inequality: the Roles of Markup, Taxes, and Asset Prices}
+\end{itemize}
+where one of the papers was a computational economics paper that solved a non-linear Heterogeneous Agent model using neural networks, and the other one studied the dynamics of income and wealth inequality using a heterogeneous agent model. 
+
+I learned a lot from these reading group discussions and got great exposure to ongoing research and topics in the macroeconomic field. John has also been a great guide to me in terms of how to present papers and stay within the time limit of presentations. The feedback I have received from all the members of the reading group has taught me a lot. 
+
+Even outside of the reading group discussions, John was kind enough to give me some of his time to understand my background and to guide me towards pursuing my PhD in Economics, with a direction towards research in the quantitative macroeconomics field. 
+
+\subsubsection*{Some parts which I would like to be included in the letter}
+Apart from my quantitative and computational experience mentioned above, here are some additional points I would like to be included:
+
+\begin{itemize}
+    \item \textbf{Working with big data}: I work a lot with messy, large, and highly granular datasets. Indian datasets are often enormous, and cleaning them is challenging. I build efficient data pipelines using GNU Make, organize and version-control them via the Git CLI, and host them on GitHub. 
+    \item \textbf{Multiprocessing and Parallelisation}: Large datasets can be expensive to run locally since they might end up taking more space than expected and consume significant RAM. After being introduced to multiprocessing in one of John's `AI tools for econ' classes, I have started using it quite frequently to distribute computations using large datasets across different cores of my CPU.  
+    \item \textbf{Automations:} There are several manual tasks that I automate; one example can be found \href{https://www.dropbox.com/scl/fo/y15cff7tq9a0maumjf4iu/AC0txrQwzOXWPnIsCLzqxtY?rlkey=4zt5cm7tffme70pr46advu9ot&st=awyoaut5&dl=0}{here}, where I have written a script that reads a metadata file, defines observations in a variable, and combines it with parallel processing, since the data I was working on was massive. 
+\end{itemize}
+
+I realize I may not have had the opportunity to demonstrate these skills while contributing to Quantecon or in any of the sessions we have interacted in, so it's completely fine if you do not want to emphasize any of these points, or if you feel some of them would not be appropriate to include. Please feel completely free to write the letter in whatever way you feel best reflects your honest assessment of me.
+
+\subsubsection*{Some technical and non-technical strengths}
+\begin{itemize}
+    \item \textbf{Technical strengths:} 
+    \begin{itemize}
+        \item Strong with Python, and Stata.
+        \item I have experience with econometric theory, and apply econometric analysis like high-dimensional PanelOLS, WLS regressions, and exposure to dynamic diff-in-diff (DiD) framework. 
+        \item Theoretical understanding of quantitative macro and growth models, especially endogenous growth models. 
+    \end{itemize}
+    \item \textbf{Non-Technical strengths}
+    \begin{itemize}
+        \item Curiosity about many economic topics (not just restricted to computational / macro / applied economics). 
+        \item Willingness to learn new things on each step.
+        \item Adapt to new technical environments and academic topics (honestly, I'll give a major credit to AI to help me learn and adapt to new things). 
+    \end{itemize}
+\end{itemize}
+
+\newpage
+\section*{Appendix}
+\phantomsection
+\label{sec:appendix}
+
+\subsubsection*{Exposure to macroeconomic and growth models}
+My exposure to macroeconomic models comes primarily from coursework during my master's and bachelor's degrees, as well as teaching experience and independent research. During this time, I've been introduced to different domains in theoretical and quantitative macroeconomics, starting with growth theory and expanding into general equilibrium, monetary economics, and heterogeneous agent models.
+
+We started with the foundational Solow growth model and its variations from the book by \cite{acemoglu2008introduction}, which I later taught to postgraduate students as a Teaching Assistant. The Solow model introduced us to thinking about capital accumulation, technological progress, and steady-state growth. From there, we moved to endogenous growth models like the AK model, where growth becomes self-sustaining rather than driven by exogenous technology shocks. We then endogenized the savings decision and transitioned to the Ramsey-Cass-Koopmans model, which uses an infinitely-lived representative agent framework with intertemporal optimization, and this was my first real exposure to dynamic optimization in macro. We also covered Romer's model of endogenous technological change, where firms invest in R\&D to develop new ideas, and these ideas generate knowledge spillovers that benefit the entire economy over time, linking innovation directly to long-run growth.
+
+In the Intermediate Macroeconomics - I course,  we studied the Arrow-Debreu general equilibrium framework, which shows how markets can achieve Pareto efficiency under certain conditions. We extended this to sequential markets and used Negishi's computational method to actually solve for equilibria numerically. This same course later on introduced mathematical concepts like metric spaces and normed vector spaces, which became essential tools for proving existence and uniqueness results in macro models. We were also introduced to both deterministic and stochastic optimal growth models, learning computational techniques like value function iteration and theoretical foundations like the contraction mapping theorem, which would guarantee that the iterative solution methods will converge to the correct answer.
+
+When I was a TA for a postgraduate Macroeconomics course, I helped teach overlapping generations models, including the classic Samuelson version and Diamond's extension with capital, as well as a version of OLG with money. We explored microfounded monetary models like the Lagos-Wright framework, which explicitly models search frictions in decentralized markets to understand why money is essential for facilitating trade. We briefly touched on the Kiyotaki-Wright model as well, which shows how certain goods can emerge as commodity money. On the labor side, we studied the Diamond-Mortensen-Pissarides search and matching model, which explains unemployment as an equilibrium outcome arising from frictions in the job matching process.
+
+During my master's thesis, I explored many different topics before settling on my research question, and that exploration also exposed me to a wide range of models, for example, the Bewley-Huggett-Aiyagari models that show how incomplete markets and income risk shape wealth distributions and aggregate dynamics. My thesis ultimately focused on intergenerational questions, so I worked extensively with OLG models like those by \cite{KOTERA2017187} and \cite{lee2019intergenerational}, which examine how parents invest in their children's education and how this shapes long-run human capital accumulation. I also looked at \cite{DOEPKE20161789}'s work on family bargaining in OLG settings, and models that incorporate education and human capital formation across generations. I spent time with \cite{de2002theory}'s book on growth theory, which presents various extensions of the OLG framework, that includes models with dynamic altruism, where parents care about their children's welfare, and different financing arrangements for education like parental versus market funding. One interesting dimension these models explore is the tradeoff young people face between studying to accumulate human capital and working to earn income.
+
+Through elective courses and projects, I was introduced to other important models as well. The \cite{dixitstiglitz} monopolistic competition framework appears in most places in modern macro as it's the workhorse for modeling product variety and markups in New Keynesian models, trade theory, and growth models with innovation. We also studied \cite{hsieh2009misallocation}'s work on misallocation, which uses firm-level data to show how factor market distortions reduce aggregate productivity. This connects micro-level frictions to macro-level outcomes through an interesting way, and this was more relevant to us since the paper was also focusing towards the Indian markets. We also explored inequality and growth models like those by \cite{galor1993income}, which shows how credit constraints and indivisibilities in education investment can create poverty traps, and also \cite{galor2004physical}, which examines how the evolution of the wealth distribution interacts with technological change and growth.
+
+I've been fortunate to participate in macroeconomic workshops where we discuss recent papers and new developments in the field. I've presented several papers that interested me. One was \cite{auclert2021using}'s Sequence Space Jacobian paper, which represents a major computational breakthrough, since it dramatically speeds up the solution of heterogeneous agent models by linearizing around a sequence of perfectly-foresighted equilibria rather than around a steady state. This reduces computation time by orders of magnitude while maintaining accuracy, making it feasible to work with much richer models. I also presented work by \cite{goraya2023does} that applies a macroeconomic entrepreneurship model, similar in spirit to \cite{buera2013financial} and \cite{quadrini2000entrepreneurship}, to understand caste-based inequality in India. The paper shows that credit market constraints differ systematically across caste groups, leading to misallocation of capital and reducing per capita output by about 5.6\%. I chose this paper because caste inequality has been persistent in India for a long time, and seeing a macroeconomic entrepreneurship model applied to this question provides an interesting perspective on understanding these differences.
+\newpage
+\bibliography{references}
+
+\end{document}

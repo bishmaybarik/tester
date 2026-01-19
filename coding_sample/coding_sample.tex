@@ -1,0 +1,108 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+% define colors for syntax highlighting
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{commentcolor}{rgb}{0.25,0.5,0.5}
+
+% configure listings for Python code
+\lstdefinestyle{pythonstyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{commentcolor}\ttfamily,
+    keywordstyle=\color{blue}\bfseries,
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4,
+    frame=single,
+    rulecolor=\color{black!30}
+}
+
+\lstset{style=pythonstyle}
+
+% configure page headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Coding Sample}
+\lhead{Bishmay Barik}
+\rfoot{Page \thepage}
+
+% hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+\begin{document}
+
+\title{\textbf{Coding Sample}}
+\author{Bishmay Barik}
+\date{\today}
+\maketitle
+
+\section{Project Overview: lipi-swap}
+
+This Python script was developed to scrape data from an Indian administrative database, where names of entities like Panchayats and Blocks are often written in Hindi (Devanagari script). The script uses web scraping techniques to collect data and leverages the \texttt{unidecode} library to transliterate Hindi names into English, ensuring compatibility when saved to a CSV file.
+
+\subsection{Purpose and Functionality}
+
+This script is built to scrape hierarchical data from Indian datasets (e.g., states, districts, blocks, and panchayats) using \texttt{requests} and \texttt{BeautifulSoup}. It handles non-Roman scripts like Devanagari by converting them to English equivalents with \texttt{unidecode}. The scraped data, including monthly figures, is organized into a structured CSV file using \texttt{pandas}. English names remain unchanged, while Hindi names are transliterated for readability and compatibility.
+
+\subsection{Why Transliteration?}
+
+When dealing with datasets containing Devanagari script (e.g., Hindi names), saving them directly to a CSV can result in encoding issues or unreadable characters on systems not configured for non-Roman scripts. Transliteration solves this by converting Hindi characters to their closest English (Roman) equivalents, making the data portable and usable across different platforms.
+
+\subsection{Installation}
+
+To run \textbf{lipi-swap}, you'll need the following Python libraries:
+
+\begin{itemize}
+    \item \texttt{requests} - For making HTTP requests
+    \item \texttt{beautifulsoup4} - For parsing HTML content
+    \item \texttt{pandas} - For handling data and CSV output
+    \item \texttt{unidecode} - For transliterating Hindi to English
+\end{itemize}
+
+Install them using pip:
+
+\begin{quote}
+\texttt{pip install requests beautifulsoup4 pandas unidecode}
+\end{quote}
+
+\section{Refactored Code Following Rigorous Standards}
+
+I have refactored this code to adhere to rigorous coding standards, including:
+
+\begin{itemize}
+    \item \textbf{Extensive commenting:} One comment for every line of code (minimum 1:1 ratio)
+    \item \textbf{Proper naming conventions:} Using \texttt{df\_} prefix for DataFrames, \texttt{\_list} suffix for lists, \texttt{\_path} suffix for file paths
+    \item \textbf{Clear function documentation:} Comprehensive docstrings with Args, Returns, and Example sections
+    \item \textbf{Verbose parameter:} Added to control debug output
+    \item \textbf{Clear error messages:} Informative messages for debugging
+    \item \textbf{Interpretability over brevity:} Code prioritizes clarity and maintainability
+\end{itemize}
+
+\subsection{lipi-swap.py (Refactored)}
+
+\lstinputlisting[language=Python]{lipi-swap-refactored.py}
+
+\end{document}

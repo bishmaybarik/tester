@@ -1,0 +1,61 @@
+India has seen major improvements in internet availability in recent years, both in coverage and download speeds. But the core question remains: does wider internet coverage translate to better digital skills? The answer is not trivial. Some regions have used better connectivity to build real digital skills. Others are still left behind, even though the infrastructure is already in place. This gap reflects differences across caste, gender, and income, showing deep inequalities that policy needs to address.
+
+Drivers of the rise in internet speeds
+
+Figure 1 shows the steady rise in internet speeds using data from Ookla. The sharp increase in mobile download speeds after late 2022 aligns with the launch of 5G services in October 2022. According to the Ministry of Communications, 5G networks now cover 99.6 percent of India's districts, with about 4.7 lakh 5G Base Transmitter Stations installed by February 2025.
+
+Broadband speeds show a noticeable jump in late 2021, possibly due to newer schemes like Airtel Black and increased demand during COVID-19 lockdowns.
+
+Figure 2 highlights state-level differences. Delhi consistently ranks among the top three, reflecting regular government investment. Figure 3 compares improvements between early 2019 and mid-2025, with broadband speeds surging in state capitals and metropolitan areas, while mobile speeds show improvements in capitals and surrounding districts.
+
+But infrastructure is only half the story. The more pressing question is whether these improvements have translated into actual digital capabilities.
+
+Variation in digital abilities by state, gender and caste
+
+The digital divide in India is not merely about who has internet access, it is about who can actually use it.
+
+Figure 4 shows a clear divide based on data from the Comprehensive Annual Modular Survey. Western states have a larger share of people who can use smartphones, with Maharashtra recording 66.3 percent. In contrast, the eastern region peaks at Jharkhand with 56 percent. The pattern reverses for basic phone usage. West Bengal has 31.5 percent using basic phones, while Gujarat and Maharashtra record around 16.6 percent.
+
+This reflects the economic divide between eastern and western India. When India opened up its economy, western states benefited from better access to ports and early industrialisation. Being more developed, they have higher incomes and stronger digital infrastructure. The eastern region relies more on affordable basic phones.
+
+The gender gap in digital finance
+
+Geography is one axis of inequality, and gender is another. On average, 34.2 percent of women in southern states know tech-banking, well above the all-India average of 25.29 percent. In northern states this drops to just 15 percent. Among men, we do not observe similarly stark regional differences.
+
+The Global Findex database reveals how this gap has evolved. In 2011, only 5.5 percent of respondents used electronic payment methods—67 percent were men. By 2021, the proportion rose to 12.1 percent, but 78.5 percent were men. The gender gap has widened rather than narrowed.
+
+The caste dimension: uneven progress
+
+For Scheduled Castes (SCs), the south performs better. Nationally, 29.4 percent of SCs know tech-banking. In southern states, this rises to 39.4 percent, while in northern states it falls to 20.9 percent—a south–north gap of almost twenty percentage points.
+
+For Scheduled Tribes (STs), the pattern differs. Nationally, about 30.1 percent of STs are familiar with tech-banking, distributed evenly across regions with no pronounced north–south divide.
+
+Where caste and gender intersect
+
+The most revealing patterns emerge when examining gender and caste together. Nationally, only 21.88 percent of female STs know tech-banking. In Tamil Nadu, 47.6 percent can carry out tech-banking—more than double the national average. Haryana and Punjab follow at 45.5 percent and 42.8 percent.
+
+Tamil Nadu's exceptional performance likely stems from progressive social policy, including women's self-help group programmes like 'Mahalir Thittam', early financial inclusion efforts, and strong welfare scheme implementation.
+
+We also observe high tech-banking knowledge among male SCs in western and southern states, where economic development and sustained social policy raise digital capabilities.
+
+Internet access and digital skill development
+
+If internet speeds are improving everywhere, why do digital skills remain so uneven?
+
+Bihar has an average mobile download speed of around 53 Mbps, yet only 47 percent of its population knows how to use a smartphone. This gap suggests that physical infrastructure improvements alone are not enough.
+
+Tamil Nadu has a slightly higher download speed of 55 Mbps, but only 57 percent use smartphones. One explanation is demographic composition—Tamil Nadu has about 14 percent of residents in older age groups, the second highest after Kerala. Older populations adopt new technologies more slowly.
+
+The BIMARU states—Bihar, Madhya Pradesh, Rajasthan and Uttar Pradesh—all fall below the national average in smartphone usage but are above average in basic phone usage, likely due to lower incomes.
+
+Policy prescriptions
+
+The evidence is clear: faster internet alone cannot close India's digital divide. While infrastructure has improved, benefits have not been shared equally.
+
+Digital skills need targeted programmes, especially in low-income and eastern states. Women-focused initiatives are particularly important. Practical training in schools, panchayats, self-help groups, and community centres should teach smartphone use, online safety, and digital finance.
+
+Research by Dr. Rohini Pande shows that simply giving women smartphones does not solve the problem without addressing gender norms. Smartphones and internet access must be made more affordable through subsidised phones, low-cost data plans, and community Wi-Fi.
+
+Digital infrastructure must reach beyond cities. Smaller towns and rural districts need continued investment. Digital public services should be redesigned for low-skill users with simple interfaces and regional language support.
+
+These steps can help rising internet speeds lead to real digital empowerment, rather than making existing inequalities worse.
