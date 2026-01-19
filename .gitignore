@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Dataset files
+*.csv
+*.dta
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.tsv
+*.sav
+*.rds
+*.rda
+*.RData
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.sqlite
+*.db
